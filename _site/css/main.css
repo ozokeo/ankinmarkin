@@ -1,4 +1,3 @@
-
 @font-face {
 	font-family: 'mawns_handwriting_regular';
 	src: url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.eot');
@@ -26,23 +25,29 @@ url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.svg
 /* Ссылки */
 a {
 	text-decoration:none;
+	color:black
 }
 .links {
-	background-color:#000000;
+	background-color:#333333;
 	height: 35px;
 	padding-top: 10px;
 }
 .links a {
 	color: white;
-	padding: 0.5em;
+	padding: 0.6em;
+	font-size: 1em;
 	
 }
 .links a:hover {
-	color: gray;
-}
-
+	text-decoration:underline;
+	}
+.links span a:hover {
+	text-decoration:none;
+	color:#CCCCCC;
+	}
+	
 	/* Для заголовка */
-header {
+header  .container {
 	text-align: center;
 	margin-top: 3em;
 	} 
@@ -54,7 +59,7 @@ header {
 
 #opisanie {
 	font-size: 1.3em;
-	margin-bottom: 1em;
+	margin-bottom: 1.3em;
 }
 
 /* Для перечня страниц (навигации) */
@@ -67,7 +72,8 @@ header {
 nav {
 	font-size: 1.5em;
 	font-family: 'Oranienbaum', sans;
-	display:inline;
+	display: inline;
+	margin-right: 0px;
 	}
 nav a {
 	color: black;
