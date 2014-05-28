@@ -1,0 +1,86 @@
+
+@font-face {
+	font-family: 'mawns_handwriting_regular';
+	src: url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.eot');
+	src: url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.woff') format('woff'),
+url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.ttf') format('truetype'),
+url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.svg#mawns_handwriting_regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neucha'), url(http://themes.googleusercontent.com/static/fonts/neucha/v5/XE-CQUm9nMnSxYSbi8LNmQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oranienbaum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oranienbaum'), local('Oranienbaum-Regular'), url(http://themes.googleusercontent.com/static/fonts/oranienbaum/v2/WyaFSM_en0pjtlmUWwS7GWOb2gHztoQeulij-1lvl-8.woff) format('woff');
+}
+
+/* Ссылки */
+a {
+	text-decoration:none;
+}
+.links {
+	background-color:#000000;
+	height: 35px;
+	padding-top: 10px;
+}
+.links a {
+	color: white;
+	padding: 0.5em;
+	
+}
+.links a:hover {
+	color: gray;
+}
+
+	/* Для заголовка */
+header {
+	text-align: center;
+	margin-top: 3em;
+	} 
+
+#am {
+	font-family: 'mawns_handwriting_regular', ComicSans;
+	font-size: 3em;
+}
+
+#opisanie {
+	font-size: 1.3em;
+	margin-bottom: 1em;
+}
+
+/* Для перечня страниц (навигации) */
+.navbar {
+	border-top:solid 2px gray;
+	border-bottom:solid 3px #000000;
+
+}
+
+nav {
+	font-size: 1.5em;
+	font-family: 'Oranienbaum', sans;
+	display:inline;
+	}
+nav a {
+	color: black;
+	padding: 0.5em;
+	line-height: 2em;
+	
+	}
+nav a:hover {
+          background-color: gray;
+		  color:#FFFFFF;
+        }
+
+
+@media (max-width: 320px) {
+    /* Override at and below 320px */
+}
