@@ -23,6 +23,13 @@ url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.svg
 }
 
 /* Ссылки */
+a {
+	text-decoration:none;
+	color: black;
+}
+a:hover {
+	color:#666666;
+	}
 
 .links {
 	background-color:#333333;
@@ -36,11 +43,12 @@ url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.svg
 	
 }
 .links a:hover {
-	text-decoration:underline;
-	}
-.links span a:hover {
 	text-decoration:none;
 	color:#CCCCCC;
+	
+	}
+.links span a:hover {
+	text-decoration:underline;
 	}
 	
 	/* Для заголовка */
@@ -70,18 +78,59 @@ nav {
 	font-size: 1.5em;
 	font-family: 'Oranienbaum', sans;
 	display: inline;
-	margin-right: 0px;
 	}
 nav a {
 	color: black;
-	padding: 0.5em;
+	padding: 0.5em 0.85em;
 	line-height: 2em;
-	
 	}
 nav a:hover {
           background-color: gray;
 		  color:#FFFFFF;
         }
+		
+.images {
+	text-align:center;
+	margin: 2em;
+}
+	
+	
+.image {
+	height: 220px;
+	width: 300px;
+	color: white;
+	display: inline-block;
+}
+#image1 {	
+	background: url(../img/atelie.jpg);
+	background-size: cover;
+		
+}
+#image2 {
+	background:url(../img/photo.jpg);
+	background-size: cover;
+	
+}
+#image3 {
+	background:url(../img/travel.jpg);
+	background-size: cover;
+}
+#image4 {
+	background: url(../img/bouquet.jpg);
+	background-size: cover;
+}
+	
+footer span a:hover {
+	text-decoration:underline;
+}
+.credits {
+	text-align:center;
+}
+
+}
+
+
+
 
 
 @media (max-width: 320px) {
