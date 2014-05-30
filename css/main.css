@@ -202,9 +202,11 @@ footer span a:hover {
 		padding: 0;
 	}
 	.content {
-	margin:1em;
+		margin:1em;
 	}	
-
+	.gallery {
+		margin-top:0;
+}
 }
 @media (max-width: 540px) {
 	.foto {
