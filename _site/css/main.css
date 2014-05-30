@@ -210,13 +210,13 @@ footer span a:hover {
 }
 }
 @media (max-width: 540px) {
-	.foto {
-		max-height:100px;
-		padding:1em;
-				
-	}
-	.visitka {
-	width:100%;
-	}
+	.foto img {
+	 width:100%;
+	 height:auto;
+		}
+.visitka img{
+	 width:100%;
+	 height:auto;
+		}
 		
 }
