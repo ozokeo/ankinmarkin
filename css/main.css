@@ -59,47 +59,68 @@ header  .container {
 
 #am {
 	font-family: 'mawns_handwriting_regular', ComicSans;
-	font-size: 3em;
+	
 }
 
 #opisanie {
 	font-size: 1.3em;
-	margin-bottom: 1.3em;
+	margin-top: 0.3em;
+	
+	margin-bottom: 1.5em;
 }
 
 /* Для перечня страниц (навигации) */
 .navbar {
 	border-top:solid 2px gray;
 	border-bottom:solid 3px #000000;
-
+	
 }
 
 nav {
 	font-size: 1.5em;
 	font-family: 'Oranienbaum', sans;
-	display: inline;
+	
 	}
 nav a {
 	color: black;
-	padding: 0.5em 0.85em;
+	padding: 0.5em 0.82em;
 	line-height: 2em;
 	}
 nav a:hover {
           background-color: gray;
 		  color:#FFFFFF;
         }
+	
+.content {
+	margin-top:2.8em;
+	margin-bottom:2.5em;
 		
+}
 .images {
 	text-align:center;
-	margin: 2em;
+	
+}
+
+.d-images {
+	display: inline-block;
+	
 }
 	
-	
 .image {
-	height: 220px;
-	width: 300px;
+	height: 200px;
+	width: 260px;
 	color: white;
 	display: inline-block;
+	padding: 1.5em;
+	margin: 0.5em;
+}
+.image:hover {
+	
+	-moz-transform: scale(1.1, 1.1); /* Для Firefox */
+    -ms-transform: scale(1.1, 1.1); /* Для IE */
+    -webkit-transform: scale(1.1, 1.1); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.1, 1.1); /* Для Opera */
+    transform: scale(1.1, 1.1);
 }
 #image1 {	
 	background: url(../img/atelie.jpg);
@@ -119,20 +140,70 @@ nav a:hover {
 	background: url(../img/bouquet.jpg);
 	background-size: cover;
 }
+.visitka {
+	text-align:center;
+	padding: 0.7em;
+}
+
+article {
+	max-width: 700px;
+    margin: 0 auto;
+	
+	}
+h2 {
+	font-family: 'Neucha';
+}
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+}
+.gallery {
+	text-align:center;
+}
+.foto {
+	display:inline-block;
+	height: 200px;
+	
+	padding: 1em;
+	
+}
+.foto img {
+	width:auto;
+	height:100%;
+}
+	
 	
 footer span a:hover {
 	text-decoration:underline;
+	width: 300px;
+	width: 0px;
+	width: 0px;
 }
 .credits {
 	text-align:center;
 }
 
+
+
+
+@media (max-width: 1350px) {
+    /* Override at and below 380px */
+	
+	.image {
+		padding: 0;
+	}
+	.content {
+	margin:1em;
+	}	
+
 }
-
-
-
-
-
-@media (max-width: 320px) {
-    /* Override at and below 320px */
+@media (max-width: 540px) {
+	.foto {
+		max-height:150px;
+				
+	}
+	
+		
 }
