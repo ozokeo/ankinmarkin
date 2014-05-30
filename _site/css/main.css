@@ -211,9 +211,12 @@ footer span a:hover {
 }
 @media (max-width: 540px) {
 	.foto {
-		max-height:150px;
+		max-height:100px;
+		padding:1em;
 				
 	}
-	
+	.visitka {
+	width:100%;
+	}
 		
 }
