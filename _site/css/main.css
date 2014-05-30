@@ -161,6 +161,7 @@ h2 {
 }
 .gallery {
 	text-align:center;
+	margin-top:-2em;
 }
 .foto {
 	display:inline-block;
