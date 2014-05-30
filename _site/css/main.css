@@ -173,7 +173,14 @@ h2 {
 	width:auto;
 	height:100%;
 }
+. foto img:hover {
 	
+	-moz-transform: scale(1.1, 1.1); /* Для Firefox */
+    -ms-transform: scale(1.1, 1.1); /* Для IE */
+    -webkit-transform: scale(1.1, 1.1); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.1, 1.1); /* Для Opera */
+    transform: scale(1.1, 1.1);
+}
 	
 footer span a:hover {
 	text-decoration:underline;
