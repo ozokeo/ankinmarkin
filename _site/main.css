@@ -1,0 +1,225 @@
+@font-face {
+	font-family: 'mawns_handwriting_regular';
+	src: url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.eot');
+	src: url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.woff') format('woff'),
+url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.ttf') format('truetype'),
+url('https://dl.dropboxusercontent.com/u/131331216/mawns_handwriting-webfont.svg#mawns_handwriting_regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neucha'), url(http://themes.googleusercontent.com/static/fonts/neucha/v5/XE-CQUm9nMnSxYSbi8LNmQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oranienbaum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oranienbaum'), local('Oranienbaum-Regular'), url(http://themes.googleusercontent.com/static/fonts/oranienbaum/v2/WyaFSM_en0pjtlmUWwS7GWOb2gHztoQeulij-1lvl-8.woff) format('woff');
+}
+
+/* Ссылки */
+a {
+	text-decoration:none;
+	color: black;
+}
+a:hover {
+	color:#666666;
+	}
+
+.links {
+	background-color:#333333;
+	height: 35px;
+	padding-top: 10px;
+}
+.links a {
+	color: white;
+	padding: 0.6em;
+	font-size: 1em;
+	
+}
+.links a:hover {
+	text-decoration:none;
+	color:#CCCCCC;
+	
+	}
+.links span a:hover {
+	text-decoration:underline;
+	}
+	
+	/* Для заголовка */
+header  .container {
+	text-align: center;
+	margin-top: 3em;
+	} 
+
+#am {
+	font-family: 'mawns_handwriting_regular', ComicSans;
+	
+}
+
+#opisanie {
+	font-size: 1.3em;
+	margin-top: 0.3em;
+	
+	margin-bottom: 1.5em;
+}
+
+/* Для перечня страниц (навигации) */
+.navbar {
+	border-top:solid 2px gray;
+	border-bottom:solid 3px #000000;
+	
+}
+
+nav {
+	font-size: 1.5em;
+	font-family: 'Oranienbaum', sans;
+	
+	}
+nav a {
+	color: black;
+	padding: 0.5em 0.82em;
+	line-height: 2em;
+	}
+nav a:hover {
+          background-color: gray;
+		  color:#FFFFFF;
+        }
+	
+.content {
+	margin-top:2em;
+	margin-bottom:3.2em;
+		
+}
+.images {
+	text-align:center;
+	
+}
+
+.d-images {
+	display: inline-block;
+	
+}
+	
+.image {
+	height: 200px;
+	width: 260px;
+	color: white;
+	display: inline-block;
+	padding: 1.5em;
+	margin: 0.5em;
+}
+.image:hover {
+	
+	-moz-transform: scale(1.1, 1.1); /* Для Firefox */
+    -ms-transform: scale(1.1, 1.1); /* Для IE */
+    -webkit-transform: scale(1.1, 1.1); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.1, 1.1); /* Для Opera */
+    transform: scale(1.1, 1.1);
+}
+#image1 {	
+	background: url(../img/atelie.jpg);
+	background-size: cover;
+		
+}
+#image2 {
+	background:url(../img/photo.jpg);
+	background-size: cover;
+	
+}
+#image3 {
+	background:url(../img/travel.jpg);
+	background-size: cover;
+}
+#image4 {
+	background: url(../img/bouquet.jpg);
+	background-size: cover;
+}
+.visitka {
+	text-align:center;
+	padding: 0.7em;
+}
+.visitka img {
+	width:100%;
+	max-width:426px;
+	height:auto;
+	}
+article {
+	max-width: 700px;
+    margin: 0 auto;
+	
+	}
+h2 {
+	font-family: 'Neucha';
+}
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+}
+.gallery {
+	text-align:center;
+	margin-top:-1.5em;
+}
+.foto {
+	display:inline-block;
+	height: 200px;
+	
+	padding: 1em;
+	
+}
+.foto img {
+	width:auto;
+	height:100%;
+}
+.foto img:hover {
+	
+	-moz-transform: scale(1.1, 1.1); /* Для Firefox */
+    -ms-transform: scale(1.1, 1.1); /* Для IE */
+    -webkit-transform: scale(1.1, 1.1); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.1, 1.1); /* Для Opera */
+    transform: scale(1.1, 1.1);
+}
+	
+footer span a:hover {
+	text-decoration:underline;
+	width: 300px;
+	width: 0px;
+	width: 0px;
+}
+.credits {
+	text-align:center;
+}
+
+
+
+
+@media (max-width: 1350px) {
+    /* Override at and below 380px */
+	
+	.image {
+		padding: 0;
+	}
+	.content {
+		margin:1em;
+	}	
+	.gallery {
+		margin-top:0;
+}
+}
+@media (max-width: 540px) {
+	.foto img {
+	 width:100%;
+	 height:auto;
+		}
+
+	 
+		}
+		
+}
