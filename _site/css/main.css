@@ -173,7 +173,7 @@ h2 {
 	width:auto;
 	height:100%;
 }
-. foto img:hover {
+.foto img:hover {
 	
 	-moz-transform: scale(1.1, 1.1); /* Для Firefox */
     -ms-transform: scale(1.1, 1.1); /* Для IE */
